@@ -1,0 +1,7 @@
+<h1><%= @cocktail.name %> </h1>
+
+<p><%= @dose %></p>
+
+<%= render 'form_dose', cocktail: @cocktail, dose: @dose %>
+
+<%= link_to "back to the cocktails", cocktails_path %>
